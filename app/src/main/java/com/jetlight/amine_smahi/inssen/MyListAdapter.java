@@ -8,10 +8,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-/**
- * Created by amine-smahi on 12/13/18.
- */
-
 class MyListAdapter extends ArrayAdapter<String> {
 
     private final Activity context;

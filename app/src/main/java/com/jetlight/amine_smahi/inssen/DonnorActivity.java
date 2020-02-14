@@ -20,49 +20,22 @@ public class DonnorActivity extends AppCompatActivity {
 
     ListView list;
     Button btnRequest;
-    String[] maintitle ={
+    String[] maintitle = {
             "Amine Smahi","Oussama Bonnor",
             "Mohammed Benothman","Abed kibbir",
-            "Oussama Zauoi",
-            "Amine Smahi","Oussama Bonnor",
-            "Mohammed Benothman","Abed kibbir",
-            "Oussama Zauoi",
-            "Amine Smahi","Oussama Bonnor",
-            "Mohammed Benothman","Abed kibbir",
-            "Oussama Zauoi",
-            "Amine Smahi","Oussama Bonnor",
-            "Mohammed Benothman","Abed kibbir",
-            "Oussama Zauoi",
+            "Oussama Zauoi"
     };
 
-    String[] subtitle ={
+    String[] subtitle = {
             "2 miles","5 miles",
             "4 miles","7 miles",
-            "8 miles",
-            "2 miles","5 miles",
-            "4 miles","7 miles",
-            "8 miles",
-            "2 miles","5 miles",
-            "4 miles","7 miles",
-            "8 miles",
-            "2 miles","5 miles",
-            "4 miles","7 miles",
-            "8 miles",
+            "8 miles"
     };
 
-    Integer[] imgid={
+    Integer[] imgid = {
             R.mipmap.avatar1,R.mipmap.avatar2,
             R.mipmap.avatar3,R.mipmap.avatar1,
-            R.mipmap.avatar2,
-            R.mipmap.avatar1,R.mipmap.avatar2,
-            R.mipmap.avatar3,R.mipmap.avatar1,
-            R.mipmap.avatar2,
-            R.mipmap.avatar1,R.mipmap.avatar2,
-            R.mipmap.avatar3,R.mipmap.avatar1,
-            R.mipmap.avatar2,
-            R.mipmap.avatar1,R.mipmap.avatar2,
-            R.mipmap.avatar3,R.mipmap.avatar1,
-            R.mipmap.avatar2,
+            R.mipmap.avatar2
     };
 
     public void CallHim(View view)
@@ -132,7 +105,7 @@ public class DonnorActivity extends AppCompatActivity {
                         case DialogInterface.BUTTON_POSITIVE:
                             //Yes button clicked
 
-                            Toast.makeText(DonnorActivity.this, "You requested for AB+ blood type!",
+                            Toast.makeText(DonnorActivity.this, "You requested for A+ blood type!",
                                     Toast.LENGTH_LONG).show();
                             btnRequest.setText("Request Status");
                             break;

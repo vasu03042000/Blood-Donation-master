@@ -22,7 +22,7 @@
                 android:layout_height="45dp"
                 android:background="@drawable/circle"
                 android:padding="5dp"
-                android:src="@mipmap/profile"
+                android:src="@mipmap/ic_launcher"
                 android:layout_centerVertical="true"
                 android:layout_marginLeft="10dp"
                 android:onClick="MyProfile"/>

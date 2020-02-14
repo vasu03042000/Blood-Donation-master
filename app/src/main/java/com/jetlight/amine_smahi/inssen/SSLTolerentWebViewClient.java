@@ -5,10 +5,6 @@ import android.webkit.SslErrorHandler;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
 
-/**
- * Created by amine-smahi on 12/15/18.
- */
-
 public  class SSLTolerentWebViewClient extends WebViewClient {
 
     @Override

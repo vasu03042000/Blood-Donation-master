@@ -20,7 +20,7 @@ public class StatusActivity extends AppCompatActivity {
 
     public void SocialMedia(View view) {
         Intent textShareIntent = new Intent(Intent.ACTION_SEND);
-        textShareIntent.putExtra(Intent.EXTRA_TEXT, "My name is Amine Smahi and i need AB+ blood in urgency!");
+        textShareIntent.putExtra(Intent.EXTRA_TEXT, "My name is Suneet Jain and I need A+ blood in urgency!");
         textShareIntent.setType("text/plain");
         startActivity(textShareIntent);
     }
