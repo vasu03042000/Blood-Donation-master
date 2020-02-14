@@ -9,10 +9,13 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import org.w3c.dom.Text;
+
 public class LoginActivity extends AppCompatActivity {
     private Button button;
     private Button button2;
     private EditText user_email;
+    private EditText user_pass;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -21,6 +24,7 @@ public class LoginActivity extends AppCompatActivity {
         button = (Button)findViewById(R.id.submit_btn);
         button2 = (Button)findViewById(R.id.login_btn);
         user_email = (EditText)findViewById(R.id.user_email);
+        user_pass = (EditText)findViewById(R.id.user_pass);
 
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -33,10 +37,16 @@ public class LoginActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 String email = user_email.getText().toString().trim();
+                String pass = user_pass.getText().toString().trim();
 
                 if(TextUtils.isEmpty(email))
                 {
                     Toast.makeText(LoginActivity.this, "Please enter a valid email id", Toast.LENGTH_SHORT).show();
+                }
+
+                else if(TextUtils.isEmpty(pass))
+                {
+                    Toast.makeText(LoginActivity.this, "Please enter a valid password", Toast.LENGTH_SHORT).show();
                 }
 
                 else

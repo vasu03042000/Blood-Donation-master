@@ -31,17 +31,19 @@
         android:textColorHint="#fff" />
 
     <EditText
+        android:id="@+id/user_pass"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="10dp"
-        android:padding="15dp"
         android:background="@drawable/shapeemail"
         android:drawableLeft="@drawable/ic_lock_black_24dp"
         android:drawablePadding="10dp"
         android:hint="Password"
+        android:inputType="textPassword"
+        android:padding="15dp"
         android:textColor="#fff"
-        android:textColorHint="#fff"
-        android:textColorHighlight="#fff"/>
+        android:textColorHighlight="#fff"
+        android:textColorHint="#fff" />
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -74,4 +76,5 @@
         android:shadowColor="@android:color/transparent"
         android:text="Sign Up"
         android:textColor="#000" />
+
 </LinearLayout>
