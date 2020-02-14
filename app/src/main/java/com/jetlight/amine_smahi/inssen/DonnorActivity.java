@@ -21,15 +21,15 @@ public class DonnorActivity extends AppCompatActivity {
     ListView list;
     Button btnRequest;
     String[] maintitle = {
-            "Amine Smahi","Oussama Bonnor",
-            "Mohammed Benothman","Abed kibbir",
-            "Oussama Zauoi"
+            "Roohein Malhotra","Varun K Gupta",
+            "Kartikay Bansal","Vasu Gupta",
+            "Ritik Bansal"
     };
 
     String[] subtitle = {
             "2 miles","5 miles",
             "4 miles","7 miles",
-            "8 miles"
+            "10 miles"
     };
 
     Integer[] imgid = {
@@ -44,6 +44,7 @@ public class DonnorActivity extends AppCompatActivity {
         intent.setData(Uri.parse("tel:0123456789"));
         startActivity(intent);
     }
+
     public void ViewProfile(View view)
     {
         Intent intent = new Intent(this,ProfileActivity.class);
